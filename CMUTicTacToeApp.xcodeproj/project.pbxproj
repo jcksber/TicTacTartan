@@ -7,28 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33CB28DE18558D280019700D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CB28DD18558D280019700D /* CoreTelephony.framework */; };
+		803F6E2D174BE09F004A1CAE /* CMUApp loading screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 803F6E2C174BE09F004A1CAE /* CMUApp loading screen.png */; };
+		803F6E2F174BE0A6004A1CAE /* CMUApp loading screen copy(high res).png in Resources */ = {isa = PBXBuildFile; fileRef = 803F6E2E174BE0A6004A1CAE /* CMUApp loading screen copy(high res).png */; };
+		809AF0C3174C478500B4A776 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 809AF0C2174C478500B4A776 /* Default-568h@2x.png */; };
+		809AF0C5174C479300B4A776 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 809AF0C4174C479300B4A776 /* Default@2x.png */; };
+		80E4E4F4174C62960015F6CB /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E4E4F3174C62960015F6CB /* X.png */; };
+		80E4E4F6174C629C0015F6CB /* O.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E4E4F5174C629C0015F6CB /* O.png */; };
+		80E4E4F8174C6BC80015F6CB /* CMUApp loading screen iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E4E4F7174C6BC80015F6CB /* CMUApp loading screen iphone.png */; };
+		80E4E4FA174C6BD70015F6CB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E4E4F9174C6BD70015F6CB /* Default.png */; };
 		80F8665C174416D700485864 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F8665B174416D700485864 /* UIKit.framework */; };
 		80F8665E174416D700485864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F8665D174416D700485864 /* Foundation.framework */; };
 		80F86660174416D700485864 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F8665F174416D700485864 /* CoreGraphics.framework */; };
 		80F86666174416D700485864 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80F86664174416D700485864 /* InfoPlist.strings */; };
 		80F86668174416D700485864 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F86667174416D700485864 /* main.m */; };
 		80F8666C174416D700485864 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F8666B174416D700485864 /* AppDelegate.m */; };
-		80F8666E174416D700485864 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F8666D174416D700485864 /* Default.png */; };
-		80F86670174416D700485864 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F8666F174416D700485864 /* Default@2x.png */; };
-		80F86672174416D700485864 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F86671174416D700485864 /* Default-568h@2x.png */; };
 		80F86675174416D700485864 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F86673174416D700485864 /* MainStoryboard_iPhone.storyboard */; };
 		80F86678174416D700485864 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F86676174416D700485864 /* MainStoryboard_iPad.storyboard */; };
-		80F8667B174416D700485864 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F8667A174416D700485864 /* FirstViewController.m */; };
+		80F8667B174416D700485864 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F8667A174416D700485864 /* FirstViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		80F8667D174416D700485864 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F8667C174416D700485864 /* first.png */; };
 		80F8667F174416D700485864 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F8667E174416D700485864 /* first@2x.png */; };
-		80F86682174416D700485864 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F86681174416D700485864 /* SecondViewController.m */; };
-		80F86684174416D700485864 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F86683174416D700485864 /* second.png */; };
+		80F86682174416D700485864 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F86681174416D700485864 /* SecondViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		80F86686174416D700485864 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F86685174416D700485864 /* second@2x.png */; };
 		80F8668E174416D800485864 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F8668D174416D800485864 /* SenTestingKit.framework */; };
 		80F8668F174416D800485864 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F8665B174416D700485864 /* UIKit.framework */; };
 		80F86690174416D800485864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F8665D174416D700485864 /* Foundation.framework */; };
 		80F86698174416D800485864 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80F86696174416D800485864 /* InfoPlist.strings */; };
 		80F8669B174416D800485864 /* CMUTicTacToeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F8669A174416D800485864 /* CMUTicTacToeAppTests.m */; };
+		80F866A517443D3B00485864 /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F866A417443D3B00485864 /* Board.png */; };
+		80F866A9174442BB00485864 /* scottie.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F866A7174442BB00485864 /* scottie.png */; };
+		80F866AB1744431000485864 /* eagle.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F866AA1744431000485864 /* eagle.png */; };
+		80F866B51744737D00485864 /* itemBoard2.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F866B41744737D00485864 /* itemBoard2.png */; };
+		80F866BB174476C700485864 /* tennis-racket-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F866BA174476C700485864 /* tennis-racket-hi.png */; };
+		80F866BD17459D1E00485864 /* tictactoe.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F866BC17459D1E00485864 /* tictactoe.png */; };
+		80F866C11745AB9B00485864 /* CMUAppLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F866C01745AB9B00485864 /* CMUAppLogo.png */; };
+		80F866C31745AC0C00485864 /* CMUAppLogo copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F866C21745AC0C00485864 /* CMUAppLogo copy.png */; };
+		E8520281185641D000B56335 /* NewRelicAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8520280185641D000B56335 /* NewRelicAgent.framework */; };
+		E85202831856422000B56335 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85202821856422000B56335 /* SystemConfiguration.framework */; };
+		E85202851856422700B56335 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E85202841856422700B56335 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +58,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		80F86658174416D700485864 /* CMUTicTacToeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMUTicTacToeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CB28DD18558D280019700D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		803F6E2C174BE09F004A1CAE /* CMUApp loading screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CMUApp loading screen.png"; sourceTree = "<group>"; };
+		803F6E2E174BE0A6004A1CAE /* CMUApp loading screen copy(high res).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CMUApp loading screen copy(high res).png"; sourceTree = "<group>"; };
+		809AF0C2174C478500B4A776 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		809AF0C4174C479300B4A776 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		80E4E4F3174C62960015F6CB /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
+		80E4E4F5174C629C0015F6CB /* O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O.png; sourceTree = "<group>"; };
+		80E4E4F7174C6BC80015F6CB /* CMUApp loading screen iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CMUApp loading screen iphone.png"; sourceTree = "<group>"; };
+		80E4E4F9174C6BD70015F6CB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		80F86658174416D700485864 /* Tic Tac Tartan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic Tac Tartan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F8665B174416D700485864 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		80F8665D174416D700485864 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		80F8665F174416D700485864 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,9 +77,6 @@
 		80F86669174416D700485864 /* CMUTicTacToeApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMUTicTacToeApp-Prefix.pch"; sourceTree = "<group>"; };
 		80F8666A174416D700485864 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80F8666B174416D700485864 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		80F8666D174416D700485864 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		80F8666F174416D700485864 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		80F86671174416D700485864 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		80F86674174416D700485864 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		80F86677174416D700485864 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		80F86679174416D700485864 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -63,7 +85,6 @@
 		80F8667E174416D700485864 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		80F86680174416D700485864 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		80F86681174416D700485864 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		80F86683174416D700485864 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		80F86685174416D700485864 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		80F8668C174416D800485864 /* CMUTicTacToeAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMUTicTacToeAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F8668D174416D800485864 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -71,6 +92,17 @@
 		80F86697174416D800485864 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		80F86699174416D800485864 /* CMUTicTacToeAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMUTicTacToeAppTests.h; sourceTree = "<group>"; };
 		80F8669A174416D800485864 /* CMUTicTacToeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMUTicTacToeAppTests.m; sourceTree = "<group>"; };
+		80F866A417443D3B00485864 /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Board.png; path = CMUTicTacToeApp/Board.png; sourceTree = "<group>"; };
+		80F866A7174442BB00485864 /* scottie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scottie.png; path = CMUTicTacToeApp/scottie.png; sourceTree = "<group>"; };
+		80F866AA1744431000485864 /* eagle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eagle.png; path = CMUTicTacToeApp/eagle.png; sourceTree = "<group>"; };
+		80F866B41744737D00485864 /* itemBoard2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itemBoard2.png; sourceTree = "<group>"; };
+		80F866BA174476C700485864 /* tennis-racket-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tennis-racket-hi.png"; sourceTree = "<group>"; };
+		80F866BC17459D1E00485864 /* tictactoe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tictactoe.png; sourceTree = "<group>"; };
+		80F866C01745AB9B00485864 /* CMUAppLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMUAppLogo.png; sourceTree = "<group>"; };
+		80F866C21745AC0C00485864 /* CMUAppLogo copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CMUAppLogo copy.png"; sourceTree = "<group>"; };
+		E8520280185641D000B56335 /* NewRelicAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NewRelicAgent.framework; sourceTree = "<group>"; };
+		E85202821856422000B56335 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E85202841856422700B56335 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +110,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85202851856422700B56335 /* libz.dylib in Frameworks */,
+				E85202831856422000B56335 /* SystemConfiguration.framework in Frameworks */,
+				33CB28DE18558D280019700D /* CoreTelephony.framework in Frameworks */,
 				80F8665C174416D700485864 /* UIKit.framework in Frameworks */,
+				E8520281185641D000B56335 /* NewRelicAgent.framework in Frameworks */,
 				80F8665E174416D700485864 /* Foundation.framework in Frameworks */,
 				80F86660174416D700485864 /* CoreGraphics.framework in Frameworks */,
 			);
@@ -100,6 +136,19 @@
 		80F8664F174416D700485864 = {
 			isa = PBXGroup;
 			children = (
+				80E4E4F9174C6BD70015F6CB /* Default.png */,
+				809AF0C4174C479300B4A776 /* Default@2x.png */,
+				809AF0C2174C478500B4A776 /* Default-568h@2x.png */,
+				80F866C21745AC0C00485864 /* CMUAppLogo copy.png */,
+				80F866C01745AB9B00485864 /* CMUAppLogo.png */,
+				803F6E2C174BE09F004A1CAE /* CMUApp loading screen.png */,
+				80E4E4F7174C6BC80015F6CB /* CMUApp loading screen iphone.png */,
+				803F6E2E174BE0A6004A1CAE /* CMUApp loading screen copy(high res).png */,
+				80E4E4F5174C629C0015F6CB /* O.png */,
+				80E4E4F3174C62960015F6CB /* X.png */,
+				80F866AA1744431000485864 /* eagle.png */,
+				80F866A7174442BB00485864 /* scottie.png */,
+				80F866A417443D3B00485864 /* Board.png */,
 				80F86661174416D700485864 /* CMUTicTacToeApp */,
 				80F86693174416D800485864 /* CMUTicTacToeAppTests */,
 				80F8665A174416D700485864 /* Frameworks */,
@@ -110,7 +159,7 @@
 		80F86659174416D700485864 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80F86658174416D700485864 /* CMUTicTacToeApp.app */,
+				80F86658174416D700485864 /* Tic Tac Tartan.app */,
 				80F8668C174416D800485864 /* CMUTicTacToeAppTests.octest */,
 			);
 			name = Products;
@@ -119,6 +168,10 @@
 		80F8665A174416D700485864 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E85202841856422700B56335 /* libz.dylib */,
+				E85202821856422000B56335 /* SystemConfiguration.framework */,
+				E8520280185641D000B56335 /* NewRelicAgent.framework */,
+				33CB28DD18558D280019700D /* CoreTelephony.framework */,
 				80F8665B174416D700485864 /* UIKit.framework */,
 				80F8665D174416D700485864 /* Foundation.framework */,
 				80F8665F174416D700485864 /* CoreGraphics.framework */,
@@ -136,11 +189,13 @@
 				80F86676174416D700485864 /* MainStoryboard_iPad.storyboard */,
 				80F86679174416D700485864 /* FirstViewController.h */,
 				80F8667A174416D700485864 /* FirstViewController.m */,
-				80F8667C174416D700485864 /* first.png */,
-				80F8667E174416D700485864 /* first@2x.png */,
 				80F86680174416D700485864 /* SecondViewController.h */,
 				80F86681174416D700485864 /* SecondViewController.m */,
-				80F86683174416D700485864 /* second.png */,
+				80F8667C174416D700485864 /* first.png */,
+				80F8667E174416D700485864 /* first@2x.png */,
+				80F866BA174476C700485864 /* tennis-racket-hi.png */,
+				80F866BC17459D1E00485864 /* tictactoe.png */,
+				80F866B41744737D00485864 /* itemBoard2.png */,
 				80F86685174416D700485864 /* second@2x.png */,
 				80F86662174416D700485864 /* Supporting Files */,
 			);
@@ -154,9 +209,6 @@
 				80F86664174416D700485864 /* InfoPlist.strings */,
 				80F86667174416D700485864 /* main.m */,
 				80F86669174416D700485864 /* CMUTicTacToeApp-Prefix.pch */,
-				80F8666D174416D700485864 /* Default.png */,
-				80F8666F174416D700485864 /* Default@2x.png */,
-				80F86671174416D700485864 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -183,9 +235,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80F86657174416D700485864 /* CMUTicTacToeApp */ = {
+		80F86657174416D700485864 /* Tic Tac Tartan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80F8669E174416D800485864 /* Build configuration list for PBXNativeTarget "CMUTicTacToeApp" */;
+			buildConfigurationList = 80F8669E174416D800485864 /* Build configuration list for PBXNativeTarget "Tic Tac Tartan" */;
 			buildPhases = (
 				80F86654174416D700485864 /* Sources */,
 				80F86655174416D700485864 /* Frameworks */,
@@ -195,9 +247,9 @@
 			);
 			dependencies = (
 			);
-			name = CMUTicTacToeApp;
+			name = "Tic Tac Tartan";
 			productName = CMUTicTacToeApp;
-			productReference = 80F86658174416D700485864 /* CMUTicTacToeApp.app */;
+			productReference = 80F86658174416D700485864 /* Tic Tac Tartan.app */;
 			productType = "com.apple.product-type.application";
 		};
 		80F8668B174416D800485864 /* CMUTicTacToeAppTests */ = {
@@ -240,7 +292,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80F86657174416D700485864 /* CMUTicTacToeApp */,
+				80F86657174416D700485864 /* Tic Tac Tartan */,
 				80F8668B174416D800485864 /* CMUTicTacToeAppTests */,
 			);
 		};
@@ -252,15 +304,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				80F86666174416D700485864 /* InfoPlist.strings in Resources */,
-				80F8666E174416D700485864 /* Default.png in Resources */,
-				80F86670174416D700485864 /* Default@2x.png in Resources */,
-				80F86672174416D700485864 /* Default-568h@2x.png in Resources */,
 				80F86675174416D700485864 /* MainStoryboard_iPhone.storyboard in Resources */,
 				80F86678174416D700485864 /* MainStoryboard_iPad.storyboard in Resources */,
 				80F8667D174416D700485864 /* first.png in Resources */,
 				80F8667F174416D700485864 /* first@2x.png in Resources */,
-				80F86684174416D700485864 /* second.png in Resources */,
 				80F86686174416D700485864 /* second@2x.png in Resources */,
+				80F866A517443D3B00485864 /* Board.png in Resources */,
+				80F866A9174442BB00485864 /* scottie.png in Resources */,
+				80F866AB1744431000485864 /* eagle.png in Resources */,
+				80F866B51744737D00485864 /* itemBoard2.png in Resources */,
+				80F866BB174476C700485864 /* tennis-racket-hi.png in Resources */,
+				80F866BD17459D1E00485864 /* tictactoe.png in Resources */,
+				80F866C11745AB9B00485864 /* CMUAppLogo.png in Resources */,
+				80F866C31745AC0C00485864 /* CMUAppLogo copy.png in Resources */,
+				803F6E2D174BE09F004A1CAE /* CMUApp loading screen.png in Resources */,
+				803F6E2F174BE0A6004A1CAE /* CMUApp loading screen copy(high res).png in Resources */,
+				809AF0C3174C478500B4A776 /* Default-568h@2x.png in Resources */,
+				809AF0C5174C479300B4A776 /* Default@2x.png in Resources */,
+				80E4E4F4174C62960015F6CB /* X.png in Resources */,
+				80E4E4F6174C629C0015F6CB /* O.png in Resources */,
+				80E4E4F8174C6BC80015F6CB /* CMUApp loading screen iphone.png in Resources */,
+				80E4E4FA174C6BD70015F6CB /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +379,7 @@
 /* Begin PBXTargetDependency section */
 		80F86692174416D800485864 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80F86657174416D700485864 /* CMUTicTacToeApp */;
+			target = 80F86657174416D700485864 /* Tic Tac Tartan */;
 			targetProxy = 80F86691174416D800485864 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -368,6 +432,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jack Kasbeer (LXQPWHDUGR)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -383,6 +448,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "86C3F3C4-F3F5-4E59-970B-49C7AAE88288";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -400,6 +466,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jack Kasbeer (LXQPWHDUGR)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -408,6 +475,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "86C3F3C4-F3F5-4E59-970B-49C7AAE88288";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -417,10 +485,20 @@
 		80F8669F174416D800485864 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jack Kasbeer (5A49N323MN)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jackkasbeer_air/Google\\ Drive/Programming/AP\\ Computer\\ Science/CMUTicTacToeApp",
+					"/Users/jackkasbeer/Google\\ Drive/Programming/AP\\ Computer\\ Science/CMUTicTacToeApp",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMUTicTacToeApp/CMUTicTacToeApp-Prefix.pch";
 				INFOPLIST_FILE = "CMUTicTacToeApp/CMUTicTacToeApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6CB5A34A-9B64-490F-962A-8AC9EC453F0D";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -428,10 +506,20 @@
 		80F866A0174416D800485864 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: jack Kasbeer (5A49N323MN)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jackkasbeer_air/Google\\ Drive/Programming/AP\\ Computer\\ Science/CMUTicTacToeApp",
+					"/Users/jackkasbeer/Google\\ Drive/Programming/AP\\ Computer\\ Science/CMUTicTacToeApp",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMUTicTacToeApp/CMUTicTacToeApp-Prefix.pch";
 				INFOPLIST_FILE = "CMUTicTacToeApp/CMUTicTacToeApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6CB5A34A-9B64-490F-962A-8AC9EC453F0D";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -482,13 +570,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80F8669E174416D800485864 /* Build configuration list for PBXNativeTarget "CMUTicTacToeApp" */ = {
+		80F8669E174416D800485864 /* Build configuration list for PBXNativeTarget "Tic Tac Tartan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80F8669F174416D800485864 /* Debug */,
 				80F866A0174416D800485864 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80F866A1174416D800485864 /* Build configuration list for PBXNativeTarget "CMUTicTacToeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +586,7 @@
 				80F866A3174416D800485864 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
