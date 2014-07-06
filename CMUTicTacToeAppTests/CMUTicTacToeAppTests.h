@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Jack Kasbeer. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface CMUTicTacToeAppTests : SenTestCase
+@interface CMUTicTacToeAppTests : XCTestCase
 
 @end
